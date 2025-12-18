@@ -1,3 +1,4 @@
+
 ## Branches Used and Purpose
 - **feature-header**: Used to develop and improve the header section of the project.
 - **footer-section**: Used to develop and improve the footer section of the project.
