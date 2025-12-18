@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Student Information Dashboard</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>School Student Information Dashboard</h1>
+    <p>Official Summary Page for Basic Student Data and School Performance Monitoring</p>
+</header>
+
+<div class="container">
+
+  
+    <h2>Student Information</h2>
+
+    <div class="sass-demo">
+    <div class="title">Lesson 3: School Website Structure</div>
+    <p class="description">
+        This section explains how the school arranges information on its website, just like how 
+        documents, records, and notices are arranged on a physical school notice board. The 
+        structure helps the school present information clearly to parents, students, and teachers.
+    </p>
+
+    <div class="sass-card">
+        <strong>School Information Sections:</strong>
+        <p>
+            The website contains different sections such as student records, announcements, class 
+            summaries, and administrative notices. Each of these sections is organized for easy reading.
+        </p>
+    </div>
+
+    <div class="sass-card">
+        <strong>School Record Arrangement:</strong>
+        <p>
+            Just like files are arranged in the school office, the website groups related information 
+            together—for example, student lists, attendance summaries, and academic performance updates.
+        </p>
+    </div>
+
+    <div class="sass-card">
+        <strong>Purpose:</strong>
+        <p>
+            This organization helps the school keep information neat and accessible, ensuring both 
+            students and parents can quickly find important school updates.
+        </p>
+    </div>
+</div>
+
+<!-- CSS SECTION -->
+<h2>School Information Layout</h2>
+
+<div class="highlight-box">
+    <h3>1. School Overview</h3>
+    <p class="info-text">
+        Welcome to the school information dashboard. This page is used to provide essential details 
+        about students, academic updates, and important school activities for the academic session.
+    </p>
+</div>
+
+<div class="highlight-box">
+    <h3>2. School Notice Board</h3>
+    <div class="box-model-example">
+        This area represents how the school displays important notices, examination timetables, 
+        event reminders, and official announcements for students and parents.
+    </div>
+</div>
+
+<div class="highlight-box">
+    <h3>3. Student Population Summary</h3>
+    <div class="stats-container">
+        <div class="stats-card" id="totalStudents">0 Students</div>
+        <div class="stats-card" id="adultStudents">0 Adult Students</div>
+        <div class="stats-card" id="totalAge">Total Age: 0</div>
+    </div>
+    <p class="info-text">
+        This section gives the school a quick overview of its student population, including the 
+        number of enrolled learners, adult students, and combined student age.
+    </p>
+</div>
+
+<h2>Student Records</h2>
+<p>
+    Below is a list of students registered for the academic session. Their names and ages 
+    are processed and displayed to help the school maintain accurate and updated student data.
+</p>
+
+<ul id="studentList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
