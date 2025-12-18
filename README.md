@@ -20,6 +20,11 @@ Below is a screenshot showing successfully merged pull requests:
 - git revert
 - git fetch
 
+## Lessons Learned
+This task helped me understand how to manage project versions using Git.
+I learned how to work with branches, make meaningful commits, create and review pull requests,
+merge changes safely, and revert mistakes when necessary.
+This process improved my confidence in using GitHub for collaboration.
 
 
 # Frontend-version-control-task-zainababdul
