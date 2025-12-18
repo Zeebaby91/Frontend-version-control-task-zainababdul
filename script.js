@@ -1,7 +1,7 @@
 const students = [
     { name: "Amina Usman – JSS2", age: 20 },
     { name: "Maryam Musa – JSS1", age: 17 },
-    { name: "Bello Ahmed – SS1", age: 22 },
+    { name: "Bello Ahmed – SS1", age: 23 },
     { name: "Zainab Ali – Primary 6", age: 15 },
     { name: "Sani Ibrahim – SS2", age: 20 }
 ];
@@ -33,3 +33,4 @@ document.getElementById("adultStudents").textContent =
 document.getElementById("totalAge").textContent =
 
     `Combined Age: ${totalAge} Years`;
+
