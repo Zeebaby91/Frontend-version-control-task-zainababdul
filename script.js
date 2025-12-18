@@ -3,7 +3,7 @@ const students = [
     { name: "Maryam Musa – JSS1", age: 17 },
     { name: "Bello Ahmed – SS1", age: 22 },
     { name: "Zainab Ali – Primary 6", age: 15 },
-    { name: "Sani Ibrahim – SS2", age: 19 }
+    { name: "Sani Ibrahim – SS2", age: 20 }
 ];
 
 // map() → get student names
@@ -31,4 +31,5 @@ document.getElementById("adultStudents").textContent =
     `${adultStudents.length} Students Above 18`;
 
 document.getElementById("totalAge").textContent =
+
     `Combined Age: ${totalAge} Years`;
